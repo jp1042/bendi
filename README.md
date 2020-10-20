@@ -1,6 +1,6 @@
 # Bendi Challenge
 
-## Prerequesits
+## Prerequisites
  node - https://nodejs.org/en/download/
  npm -> bundled with node ^ 
 
