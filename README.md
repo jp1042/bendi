@@ -2,7 +2,7 @@
 
 ## Prerequisites
  node - https://nodejs.org/en/download/
- npm -> bundled with node ^ 
+ npm - bundled with node 
 
 ## Usage
 
