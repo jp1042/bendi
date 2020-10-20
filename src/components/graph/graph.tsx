@@ -5,7 +5,7 @@ import "./graph.scss";
 
 const Graph = ({ sortBy, cities }) => {
     // sort doesn't work for alphabetical at the moment - could be done at api level
-    const sortedCities = cities.sort((a, b) => a[sortBy] - b[sortBy]);
+    const sortedCities = cities.sort((a, b) => b[sortBy] - a[sortBy]);
 
     const displayTable = () => {
         // Would prefer a different libary given more time or a custom one
