@@ -1,0 +1,81 @@
+@import "./normalise.scss";
+@import "./reset.scss";
+@import "./typography.scss";
+
+* {
+    box-sizing: border-box;
+}
+
+// Temp Initial style
+.app {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(126deg, #040404, #ffffff);
+    background-size: 400% 400%;
+    -webkit-animation: background-animation 8s ease;
+    -moz-animation: background-animation 8s ease;
+    animation: background-animation 8s ease;
+
+    header {
+        font-size: 3rem;
+        font-family: Poiret One, cursive;
+        display: flex;
+        justify-content: center;
+        position: fixed;
+        margin: auto;
+        left: 0;
+        right: 0;
+        width: 40rem;
+        border-radius: .5rem;
+        padding: 1rem;
+        top: 45%;
+        background: #ffffff54;
+        color: white;
+        background: linear-gradient(90deg, #000, #fff, #000);
+        background-repeat: no-repeat;
+        background-size: 80%;
+        animation: animate 6s linear infinite;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: rgba(255, 255, 255, 0);
+    }
+
+    img {
+        width: 45rem;
+        height: 15rem;
+        position: absolute;
+        left: 11.5rem;
+        bottom: 2rem;
+    }
+
+    @-webkit-keyframes background-animation {
+        0%{background-position:7% 0%}
+        50%{background-position:94% 100%}
+        100%{background-position:7% 0%}
+    }
+    @-moz-keyframes background-animation {
+        0%{background-position:7% 0%}
+        50%{background-position:94% 100%}
+        100%{background-position:7% 0%}
+    }
+    @keyframes background-animation {
+        0%{background-position:7% 0%}
+        50%{background-position:94% 100%}
+        100%{background-position:7% 0%}
+    }
+
+    @keyframes intro {
+        0%{opacity: 0;}
+        100%{opacity: 1;}
+    }
+
+    @keyframes animate {
+        0% {
+          background-position: -500%;
+        }
+        100% {
+          background-position: 500%;
+        }
+    }
+}
+

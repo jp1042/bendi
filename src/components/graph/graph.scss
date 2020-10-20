@@ -1,0 +1,20 @@
+.graph {
+    overflow-x: scroll;
+    margin: 2rem;
+
+    .json-to-table {
+        width: 2000px;
+
+        table {
+            border-radius: 1rem;
+        }
+
+        tr {
+            height: 4rem;
+        }
+
+        td {
+            font-size: 1.5rem;
+        }
+    }
+}
