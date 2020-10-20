@@ -1,5 +1,9 @@
 # Bendi Challenge
 
+## Prerequesits
+ node - https://nodejs.org/en/download/
+ npm -> bundled with node ^ 
+
 ## Usage
 
 Navigate to the bendi project folder:
